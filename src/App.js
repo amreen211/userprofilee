@@ -64,9 +64,9 @@
               <h2>{user.name}</h2>
               <p><FaEnvelope /> {user.email}</p>
               <p><FaPhoneAlt /> {user.phone}</p>
-              <p>{user.address.street}, {user.address.suite}, {user.address.city}</p>
+              {/* <p>{user.address.street}, {user.address.suite}, {user.address.city}</p> */}
               <p><FaGlobe /> {user.website}</p>
-              <p>{user.company.name}</p>
+              {/* <p>{user.company.name}</p> */}
 
               <div className="user-actions">
                 <FaHeart />
